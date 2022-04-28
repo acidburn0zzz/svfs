@@ -21,7 +21,8 @@ GEM
       json (>= 1.7.7, < 2.0)
       pleaserun (~> 0.0.24)
       ruby-xz
-    git (1.3.0)
+    git (1.11.0)
+      rchardet (~> 1.8)
     insist (1.0.0)
     io-like (0.3.0)
     json (1.8.3)
@@ -32,6 +33,7 @@ GEM
       insist
       mustache (= 0.99.8)
       stud
+    rchardet (1.8.0)
     ruby-xz (0.2.3)
       ffi (~> 1.9)
       io-like (~> 0.3)
